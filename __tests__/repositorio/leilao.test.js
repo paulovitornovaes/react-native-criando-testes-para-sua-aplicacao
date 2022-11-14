@@ -12,7 +12,7 @@ const mockLeiloes = [
 ];
 
 const mockRequisicao = (retorno) => {
-    return new Promisse((resolve) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve({
                 data: retorno
